@@ -13,7 +13,7 @@ export default function SiteFooter() {
             target="_blank"
             rel="noreferrer"
           >
-            ShinCode
+            Test
           </Link>
           . Hosted on {""}
           <Link

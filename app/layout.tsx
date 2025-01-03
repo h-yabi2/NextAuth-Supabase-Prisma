@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   keywords: ["Next.js", "React", "TailwindCSS", "shadcn/ui"],
   authors: [
     {
-      name: "shincode",
+      name: "",
       url: siteConfig.url,
     },
   ],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og.jpg`],
-    creator: "@shincode",
+    creator: "@",
   },
 };
 
@@ -52,7 +52,7 @@ export default function RootLayout({
         )}
       >
         {children}
-        <Toaster/>
+        <Toaster />
       </body>
     </html>
   );

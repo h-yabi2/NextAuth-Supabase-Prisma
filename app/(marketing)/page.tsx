@@ -28,14 +28,14 @@ export default function IndexPage() {
             >
               はじめる
             </Link>
-            <Link
+            {/* <Link
               href={siteConfig.links.github}
               className={cn(buttonVariants({ size: "lg", variant: "outline" }))}
               target="_blank"
               rel="noreferrer"
             >
               Github
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

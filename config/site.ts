@@ -6,7 +6,7 @@ export const siteConfig: SiteConfig = {
   url: "http://localhost:3000",
   ogImage: "",
   links: {
-    x: "https://twitter.com/Shin_Engineer",
-    github: "https://github.com/Shin-sibainu",
+    x: "",
+    github: "",
   },
 };

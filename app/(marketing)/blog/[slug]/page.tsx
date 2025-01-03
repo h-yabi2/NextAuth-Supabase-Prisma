@@ -42,7 +42,7 @@ export async function generateMetadata({
       title: siteConfig.name,
       description: siteConfig.description,
       images: [`${siteConfig.url}/og.jpg`],
-      creator: "@shincode",
+      creator: "@",
     },
   };
 }
